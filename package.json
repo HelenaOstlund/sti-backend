@@ -1,0 +1,29 @@
+{
+  "name": "sti-backend",
+  "version": "1.0.0",
+  "description": "My First Backend Application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Helena Ostlund",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "healthcheck": "^0.1.3"
+  },
+  "bugs": {
+    "url": "https://github.com/HelenaOstlund/sti-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HelenaOstlund/sti-backend"
+  },
+  "engines": {
+    "node": "17.x"
+  },
+  
+  "homepage": "https://github.com/HelenaOstlund/sti-backend#readme"
+  
+}

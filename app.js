@@ -37,6 +37,11 @@ app.get("/fotboll", (req ,res)=>{
             "name": "HIF",
             "points":3,
             "logo":"https://www.allsvenskan.se/_/image/e0013018-34ee-4f8f-8ffb-8af994b18a25:c8175bb4562ee694fbdfc6acd7e9ceb1848ea83f/width-110/Helsingborgs%20IF.svg"
+        },
+        {
+            "name": "BP",
+            "points":3,
+            "logo":"https://www.allsvenskan.se/_/image/e0013018-34ee-4f8f-8ffb-8af994b18a25:c8175bb4562ee694fbdfc6acd7e9ceb1848ea83f/width-110/Helsingborgs%20IF.svg"
         }
     ]
     res.status(200).send(body)
